@@ -45,7 +45,7 @@ This project implements a comprehensive multi-class fish species image classific
 <p align="center">
   <img src="Streamlit Images/1.png" alt="Streamlit Dashboard 1" width="1000"/><br>
   <img src="Streamlit Images/2.png" alt="Streamlit Dashboard 2" width="1000"/><br>
-  <img src="Streamlit Images/3.png" alt="Streamlit Dashboard 5" width="1000"/>
+  <img src="Streamlit Images/3.png" alt="Streamlit Dashboard 3" width="1000"/>
 </p>
 
 ## 📅 Dataset Requirements
@@ -207,6 +207,17 @@ train_datagen = ImageDataGenerator(
 4. **Dataset Expansion** - Collect more diverse fish images
 5. **Ensemble Methods** - Combine multiple models for better performance
 
+### Analysis Visualizations
+
+<p align="center">
+  <img src="Visualizations/1.png" alt="Streamlit Dashboard 1" width="1000"/><br>
+  <img src="Visualizations/2.png" alt="Streamlit Dashboard 2" width="1000"/><br>
+  <img src="Visualizations/3.png" alt="Streamlit Dashboard 3" width="1000"/><br>
+  <img src="Visualizations/4.png" alt="Streamlit Dashboard 4" width="1000"/><br>
+  <img src="Visualizations/5.png" alt="Streamlit Dashboard 5" width="1000"/><br>
+  <img src="Visualizations/6.png" alt="Streamlit Dashboard 6" width="1000"/>
+</p>
+
 ## 🔧 Configuration Options
 
 ### Hyperparameter Tuning
@@ -240,4 +251,5 @@ AUGMENTATION_CONFIG = {
 - **Mobile Application** - React Native or Flutter app
 - **Multi-modal Classification** - Combine image and text features
 - **Edge Deployment** - TensorFlow Lite for mobile devices
+
 
