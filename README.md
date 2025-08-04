@@ -210,13 +210,21 @@ train_datagen = ImageDataGenerator(
 ### Analysis Visualizations
 
 <p align="center">
-  <img src="Visualizations/1.png" alt="Streamlit Dashboard 1" width="1000"/><br>
-  <img src="Visualizations/2.png" alt="Streamlit Dashboard 2" width="1000"/><br>
-  <img src="Visualizations/3.png" alt="Streamlit Dashboard 3" width="1000"/><br>
-  <img src="Visualizations/4.png" alt="Streamlit Dashboard 4" width="1000"/><br>
-  <img src="Visualizations/5.png" alt="Streamlit Dashboard 5" width="1000"/><br>
-  <img src="Visualizations/6.png" alt="Streamlit Dashboard 6" width="1000"/>
+  <img src="Visualizations/1.png" alt="1" width="1000"/>
 </p>
+<table>
+  <tr>
+    <td align="center"><img src="Visualizations/2.png" width="500"></td>
+    <td align="center"><img src="Visualizations/3.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Visualizations/4.png" width="500"></td>
+    <td align="center"><img src="Visualizations/5.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Visualizations/6.png" width="500"></td>
+  </tr>
+</table>
 
 ## 🔧 Configuration Options
 
@@ -251,5 +259,3 @@ AUGMENTATION_CONFIG = {
 - **Mobile Application** - React Native or Flutter app
 - **Multi-modal Classification** - Combine image and text features
 - **Edge Deployment** - TensorFlow Lite for mobile devices
-
-
