@@ -221,10 +221,10 @@ train_datagen = ImageDataGenerator(
     <td align="center"><img src="Visualizations/4.png" width="500"></td>
     <td align="center"><img src="Visualizations/5.png" width="500"></td>
   </tr>
-  <tr>
-    <td align="center"><img src="Visualizations/6.png" width="500"></td>
-  </tr>
 </table>
+<p align="center">
+  <img src="Visualizations/6.png" alt="1" width="800"/>
+</p>
 
 ## 🔧 Configuration Options
 
@@ -259,3 +259,4 @@ AUGMENTATION_CONFIG = {
 - **Mobile Application** - React Native or Flutter app
 - **Multi-modal Classification** - Combine image and text features
 - **Edge Deployment** - TensorFlow Lite for mobile devices
+
