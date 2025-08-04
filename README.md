@@ -23,6 +23,30 @@ This project implements a comprehensive multi-class fish species image classific
 - 📈 **Performance Visualization** - Training curves, Confusion matrices and Classification reports
 - 🔄 **Model Persistence** - Automatic saving of best-performing models
 
+## 📱 Web Application Features
+
+### User Interface Components
+
+- **File Upload** - Drag-and-drop image upload
+- **Image Preview** - Display uploaded image
+- **Prediction Results** - Species name with confidence score
+- **Probability Distribution** - Interactive bar chart showing all class probabilities
+- **Model Information** - Details about the selected model
+
+### Supported Operations
+
+- **Real-time Classification** - Instant predictions on uploaded images
+- **Batch Processing** - Support for multiple image uploads
+- **Model Selection** - Choose between different trained models
+- **Confidence Filtering** - Set minimum confidence thresholds
+
+### Streamlit Quick Glance - 
+
+<p align="center">
+  <img src="Streamlit Images/1.png" alt="Streamlit Dashboard 1" width="800"/><br>
+  <img src="Streamlit Images/2.png" alt="Streamlit Dashboard 2" width="800"/><br>
+  <img src="Streamlit Images/5.png" alt="Streamlit Dashboard 5" width="800"/>
+</p>
 
 ## 📅 Dataset Requirements
 
@@ -183,23 +207,6 @@ train_datagen = ImageDataGenerator(
 4. **Dataset Expansion** - Collect more diverse fish images
 5. **Ensemble Methods** - Combine multiple models for better performance
 
-## 📱 Web Application Features
-
-### User Interface Components
-
-- **File Upload** - Drag-and-drop image upload
-- **Image Preview** - Display uploaded image
-- **Prediction Results** - Species name with confidence score
-- **Probability Distribution** - Interactive bar chart showing all class probabilities
-- **Model Information** - Details about the selected model
-
-### Supported Operations
-
-- **Real-time Classification** - Instant predictions on uploaded images
-- **Batch Processing** - Support for multiple image uploads
-- **Model Selection** - Choose between different trained models
-- **Confidence Filtering** - Set minimum confidence thresholds
-
 ## 🔧 Configuration Options
 
 ### Hyperparameter Tuning
@@ -233,5 +240,3 @@ AUGMENTATION_CONFIG = {
 - **Mobile Application** - React Native or Flutter app
 - **Multi-modal Classification** - Combine image and text features
 - **Edge Deployment** - TensorFlow Lite for mobile devices
-
-
